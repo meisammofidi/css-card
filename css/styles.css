@@ -10,6 +10,52 @@ html {
 
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.5;
+  background: cornsilk;
+}
+
+.card {
+  max-width: 450px;
+  border-radius: 30px;
+  margin: 0 50px;
+  overflow: hidden;
+}
+
+.card-content {
+    background: #fff;
+}
+
+.card-content p {
+    margin: 0 0 2rem;
+    
+}
+
+.card-footer p {
+    margin: 0;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  background: rgb(92, 191, 187);
+  background: linear-gradient(
+    90deg,
+    rgba(92, 191, 187, 1) 0%,
+    rgba(116, 214, 144, 1) 100%
+  );
+
+  color: #fff;
+}
+
+.card-content, .card-footer {
+    padding: 2rem;
+}
+
+.thumb {
+  border-radius: 100%;
+  border: 2px solid #fff;
+  width: 60px;
+  height: 60px;
+  margin-right: 2rem;
 }
